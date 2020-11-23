@@ -1,0 +1,92 @@
+<div class="container-fluid">
+  <div class="col-md-12 top-search-bar">
+  </div>
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-7 signup-form">
+      <div class="signup-form-heading">
+        <h1 class="form-heading">Join For a <span style="color: red;">Good Start</span> </h1>
+        <div class="col-md-12 d-flex justify-content-center">
+          <p class="col-md-7 form-paragraph">Consectetur adipisicing elit sed dotem eiusmod tempor incune utnaem labore
+            etdolore
+            maigna aliqua enim poskina
+          </p>
+        </div>
+        <div class="progressbar">
+          <ul class="dc-joinsteps justify-content-center d-flex">
+
+            <li class="dc-active active"><a href="">01 </a></li>
+            <hr class="horizontal-line">
+
+            <li class="dc-active"><a href="">02 </a></li>
+            <hr class="horizontal-line">
+
+            <li class="dc-active"><a href="">03 </a></li>
+            <hr class="horizontal-line">
+
+            <li class="dc-active"><a href="">04 </a></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <!-- <h1>this form is storing data in json server</h1> -->
+        <form>
+          <div class="col-md-6 form-group">
+            <input   #firstname type="text" class="form-control input-field" placeholder="First Name">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #lastname type="text" class="form-control input-field" placeholder="Last Name ">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #username type="text" class="form-control input-field" placeholder="user name">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #password  type="text" class="form-control input-field" placeholder="Password">
+          </div>
+          <div class="col-md-12 form-group">
+            <input #email type="text" class="form-control input-field" placeholder="Email">
+          </div>
+          <button (click)="signUp(firstname.value,lastname.value,username.value,password.value,email.value)" type="button" class="btn btn-outline-primary signup-active">Start Now</button>
+          <hr class="horizontal-l">
+          <div class=" form-fotter">
+            <p class="form-foter-heading">Already Have an Account?</p>
+            <button type="button" class="btn btn-link login-link">Login Now</button>
+          </div>
+        </form>
+
+
+        <h1>this form is submitting data in the original api talk2doctor</h1>
+        <form>
+          <div class="col-md-6 form-group">
+            <input   #firstnames type="text" class="form-control input-field" placeholder="First Name">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #lastnames type="text" class="form-control input-field" placeholder="Last Name ">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #username type="text" class="form-control input-field" placeholder="user name">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #passwords  type="password" class="form-control input-field" placeholder="Password">
+          </div>
+          <div class="col-md-12 form-group">
+            <input #emails type="text" class="form-control input-field" placeholder="Email">
+          </div>
+          <div class="col-md-12 form-group">
+            <input #genders type="text" class="form-control input-field" placeholder="gender">
+          </div>
+          <div class="col-md-12 form-group">
+            <input #patients type="text" class="form-control input-field" placeholder="patient">
+          </div>
+          <button routerLink="/login" (click)="signupfromt2d(firstnames.value, lastnames.value, passwords.value, emails.value, genders.value,patients.value)" type="button" class="btn btn-outline-primary signup-active">Start Now</button>
+          <hr class="horizontal-l">
+          <div class=" form-fotter">
+            <p class="form-foter-heading">Already Have an Account?</p>
+            <button type="button" class="btn btn-link login-link">Login Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

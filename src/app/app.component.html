@@ -1,0 +1,105 @@
+<div class="container-fluid main-container">
+
+    <div class="row header">
+        <div class="col-md-2">
+            <a routerLink="index"> <img src="/assets/logo.png" class="header-logo" alt="logo img">
+            </a>
+        </div>
+
+        <div class="d-flex menu col-md-6">
+            <div class="dropdown ">
+                <a class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Pages
+        </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a routerLink="about" class="menu-data2" data-hover="About">About</a></li>
+                    <li><a routerLink="article-page-two" class="menu-data2" data-hover="How It Work">Articles</a></li>
+                    <li><a routerLink="article-single" class="menu-data2" data-hover="How It Work">Single Article</a></li>
+                    <li><a routerLink="how-works-panel" class="menu-data2" data-hover="How It Work">How It Work</a></li>
+
+                </div>
+            </div>
+
+            <div class="dropdown ">
+                <a class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contact Us
+        </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a href="#" routerLink="contact-us" class="menu-data" data-hover="Contact Us">Contact Us</a></li>
+                    <li><a routerLink="contact-us2" class="menu-data" data-hover="Contact Us2">Contact Us2</a></li>
+
+                </div>
+            </div>
+
+            <div class="dropdown ">
+                <a class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Articles
+        </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a routerLink="article" class="menu-data" data-hover="Article">Article</a></li>
+                    <li><a routerLink="article-single" class="menu-data" data-hover="Article Single">Article Single</a></li>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="signin-join d-flex  col-md-2">
+            <div class="d-flex">
+                <div class="login-img"><img src="http://amentotech.com/projects/doctreat/wp-content/themes/doctreat/images/user.png" alt="user"></div>
+
+            </div>
+            <div id="flip" class=""><button *ngIf="usernamehasvalid" class="btn btn-link login">Log In</button></div>
+            <!-- <div id="flip" class=""><button *ngIf="!ff"  class="btn btn-link login">Log In</button></div> -->
+            <div id="flip2" class="">
+                <button routerLink="/doctor-profile" class="btn btn-link login">Wellcome&nbsp;{{ffff}}</button>
+                <!-- <button *ngIf="!isUserNotExist && !incorrrectPassword" #buttonhide id="buttonhide" routerLink="/search-doctor"  class="btn btn-link login">Wellcome&nbsp;{{ffff.userName}}</button> -->
+                <!-- <button  *ngIf="!isUserNotExist && !incorrrectPassword "(click)="deleteData()"  routerLink="/index" class="btn btn-link login">LogOut</button> -->
+            </div>
+            <button type="button" *ngIf="!tken" routerLink="signup" class="btn btn-outline-primary join-now-btn">Join
+        Now</button>
+            <button type="button" *ngIf="ff && !isUserNotExist && !incorrrectPassword " (click)="deleteData()" routerLink="signup" class="btn btn-outline-primary join-now-btn">Log Out</button>
+        </div>
+
+        <div class="row">
+            <div class="row d-flex justify-content-center login-form">
+
+                <div id="panel" style="display: none;" class="col-md-12 log-in">
+                    <div>
+                        <h3>LogIn</h3>
+                    </div>
+                    <div>
+                        <form>
+                            <div class="form-group">
+                                <input type="email" #userEmail class="form-control input-pace" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" #userPassword class="form-control input-pace" placeholder="Password">
+                            </div>
+
+                            <div class="row buttn-login">
+                                <input class=" col-md-5 btn-lg btn-primary" id="polo" (click)="loginFun(userEmail.value, userPassword.value)" name="Login" value="Login" type="button">
+
+                                <div class="col-md-7 d d-flex checkbox-panel">
+                                    <input type="checkbox" class=" col-md-2" id="exampleCheck1">
+                                    <label class="form-check-label keep-login" for="col-md-8 exampleCheck1">Keep me logged in</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="row forgot-pasword-panel">
+                        <div class="col-md-6">
+                            <button class="btn btn-link input-pace">Forgot Password</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button routerLink="/signup" class="btn btn-link input-pace">Create Account</button>
+                            <button (click)="clickMe()">click me</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
+<app-footer></app-footer>

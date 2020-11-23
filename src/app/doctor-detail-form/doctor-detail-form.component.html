@@ -1,0 +1,178 @@
+<div class="container-fluid">
+  <div class="col-md-12 top-search-bar">
+  </div>
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-7 signup-form">
+      <div class="signup-form-heading">
+        <h1 class="form-heading">Compleat Your<span style="color: red;"> Doctor Profile</span> </h1>
+        <div class="col-md-12 d-flex justify-content-center">
+          <p class="col-md-7 form-paragraph">Consectetur adipisicing elit sed dotem eiusmod tempor incune utnaem labore
+            etdolore
+            maigna aliqua enim poskina
+          </p>
+        </div>
+
+      </div>
+      <div class="col-md-12">
+        <!-- ljshdjkshdfkjhsdkjfhsdkjfhskdf -->
+        <form>
+          <!-- <h1>usi ng the first api for entering the common detail or dr or Patients</h1> -->
+          <div class="col-md-6 form-group">
+            <input #firstname type="text" class="form-control input-field" placeholder="First Name">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #lastname type="text" class="form-control input-field" placeholder="Last Name ">
+          </div>
+
+
+          <div class="col-md-6 form-group">
+            <input #address1 type="text" class="form-control input-field" placeholder="address 1 ">
+          </div>
+
+          <div class="col-md-6 form-group">
+            <input #address2 type="text" class="form-control input-field" placeholder="address 2">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #city type="text" class="form-control input-field" placeholder=" city">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #state type="text" class="form-control input-field" placeholder=" state (only number is accepted)">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #country type="text" class="form-control input-field" placeholder=" country (only number is accepted )">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #dateOfBirth type="text" class="form-control input-field" placeholder=" dateOfBirth">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #email type="email" class="form-control input-field" placeholder=" email">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #cnic type="text" class="form-control input-field" placeholder="cnic">
+          </div>
+
+
+          <div class="col-md-6 form-group">
+            <input #phoneNumber type="text" class="form-control input-field" placeholder="phoneNumber">
+          </div>
+          <div class="col-md-12 form-group">
+            <input #mobileNumber type="text" class="form-control input-field" placeholder="mobileNumber">
+          </div>
+          <button (click)="doctorDetail(firstname.value, lastname.value, address1.value, address2.value,
+           city.value, state.value, country.value, dateOfBirth.value, email.value, cnic.value, phoneNumber.value, mobileNumber.value)" type="button" routerLink = "/doctor-profile"  class="btn btn-outline-primary signup-active">Update Profile</button>
+          <!-- <div class="col-md-6 form-group">
+            <input #username type="text" class="form-control input-field" placeholder="user name">
+          </div> -->
+          <hr class="horizontal-l">
+          <div class=" form-fotter">
+            <p class="form-foter-heading">Already Have an Account?</p>
+            <button type="button" class="btn btn-link login-link">Login Now</button>
+          </div>
+        </form>
+<!-- siodfjlsdjflksdjflksdjf -->
+<!--
+        <form>
+          <div class="col-md-6 form-group">
+            <input #firstname type="text" class="form-control input-field" placeholder="First Name">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #lastname type="text" class="form-control input-field" placeholder="Last Name ">
+          </div>
+
+          <div class="col-md-6 form-group">
+            <input #email type="email" class="form-control input-field" placeholder="email">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #address1 type="text" class="form-control input-field" placeholder="address 1 ">
+          </div>
+
+          <div class="col-md-6 form-group">
+            <input address2 type="password" class="form-control input-field" placeholder="address 2">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #dateOfBirth type="text" class="form-control input-field" placeholder="date Of Birth ">
+          </div>
+
+
+          <div class="col-md-6 form-group">
+            <input #cnic type="password" class="form-control input-field" placeholder="cnic">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #phoneNumber type="text" class="form-control input-field" placeholder="phone Number ">
+          </div>
+
+          <div class="col-md-6 form-group">
+            <input #mobileNumber type="password" class="form-control input-field" placeholder="mobile Number">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #profilePicture type="password" class="form-control input-field" placeholder="profile Picture">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #licenceNumberOrPMDCNumber type="password" class="form-control input-field"
+              placeholder="licence Number Or PMDC Number">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #issuingAuthority type="password" class="form-control input-field" placeholder="is using Authority">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #affiliatedOrganization type="password" class="form-control input-field"
+              placeholder="affiliated Organization">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #clinicAddress1 type="password" class="form-control input-field" placeholder="clinic Address 1">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #clinicAddress2 type="text" class="form-control input-field" placeholder="clinic Address 2">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #clinicCity type="text" class="form-control input-field" placeholder="clinic City">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #clinicProvince type="text" class="form-control input-field" placeholder="clinic Province">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #clinicPhoneNumber type="text" class="form-control input-field" placeholder="clinic Phone Number">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #clinicMobileNumber type="text" class="form-control input-field" placeholder="clinic Mobile Number">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #clinicStartTime type="text" class="form-control input-field" placeholder="clinic Start Time">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #clinicEndTime type="text" class="form-control input-field" placeholder="clinic End Time">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #numberOfPatientsCheckPerDay type="text" class="form-control input-field"
+              placeholder="number Of Patients Check Per Day">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #clinicDays type="text" class="form-control input-field" placeholder="clinic Days">
+          </div>
+          <div class="col-md-6 form-group">
+            <input #doctorSpecilities type="text" class="form-control input-field" placeholder="doctor Specilities">
+          </div>
+          <div class="col-md-12 form-group">
+            <input #doctorDegrees type="text" class="form-control input-field" placeholder="doctor Degrees">
+          </div>
+          <button (click)="doctorDetail(firstname.value, lastname.value, email.value,address1.value,
+            dateOfBirth.value, cnic.value, phoneNumber.value, mobileNumber.value,
+            profilePicture.value, licenceNumberOrPMDCNumber.value, issuingAuthority.value, affiliatedOrganization.value, clinicAddress1.value,
+            clinicAddress2.value, clinicCity.value, clinicProvince.value,
+            clinicPhoneNumber.value, clinicMobileNumber.value, clinicStartTime.value, clinicEndTime.value, numberOfPatientsCheckPerDay.value,
+            clinicDays.value, doctorSpecilities.value,
+            doctorDegrees.value)" type="button" class="btn btn-outline-primary signup-active">Start Now</button>
+          <!-- start<div class="col-md-6 form-group">
+            <input #username type="text" class="form-control input-field" placeholder="user name">
+          </div> end
+          <hr class="horizontal-l">
+          <div class=" form-fotter">
+            <p class="form-foter-heading">Already Have an Account?</p>
+            <button type="button" class="btn btn-link login-link">Login Now</button>
+          </div>
+        </form> -->
+      </div>
+    </div>
+  </div>
+</div>

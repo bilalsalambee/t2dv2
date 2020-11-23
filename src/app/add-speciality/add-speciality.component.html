@@ -1,0 +1,58 @@
+<div class="container">
+    <div class="row">
+        <form novalidate [formGroup]="FormGroup">
+            <div formGroupName="itemRows">
+                <ng-container *ngIf="FormGroup.controls.itemRows !=null">
+                    <div *ngFor="let itemrow of FormGroup.controls.itemRows.controls; let i = index " [formGroupName]="i">
+                        <div class="row">
+                            <div class="col-lg-2 form-group">
+                                <input type="text" #degreeName placeholder="Enter Your Degree Name" formControlName="Name" matInput class="inpuvalue form-control">
+                            </div>
+                            <div class="col-lg-2 form-group">
+                                <input type="text" #dregreeYear placeholder="Enter Year To Compleat Degree" formControlName="RollNo" matInput class="inpuvalue form-control">
+                            </div>
+                            <div class="col-lg-2 form-group">
+                                <input type="text" placeholder="Enter your Class" formControlName="Class" matInput class="inpuvalue form-control">
+                            </div>
+                            <div class="col-lg-2 form-group">
+                                <input type="text" placeholder="Enter your Mobile" formControlName="MobileNo" matInput class="inpuvalue form-control">
+                            </div>
+                            <div class="col-lg-2 from-group">
+                                <button type="button" (click)="deleteRow()" class="delt-btn btn btn-danger" [disabled]=FormGroup.invalid>X</button>
+                            </div>
+                        </div>
+                    </div>
+                </ng-container>
+            </div>
+            <div class="form-group float-right">
+                <button type="button" (click)="AddNewRow()" [disabled]=FormGroup.invalid class="add-more btn btn-primary">Add More</button> &nbsp;
+                <!-- <button type="button" (click)="submitSpeciality(degreeName.value, dregreeYear.value)" class="submit-speciality btn btn-primary">Sumit Dr Speciality</button> -->
+            </div>
+        </form>
+    </div>
+</div>
+<!-- <div class="container">
+    <div class="d-flex justify-content-center col-md-12">
+        <div class="form-main col-md-10">
+            <form class="">
+                <div class=" col-md-4 form-group">
+                    <input type="text" class="form-control form-control-lg" id="formGroupExampleInput" aria-describedby="emailHelp" placeholder="Enter Doctor Speciality">
+                </div>
+                <div class="col-md-4 form-group">
+                    <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="1"></textarea>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary">Add More fields</button>
+
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary">Cancel</button>
+
+                </div>
+                <button type="submit" class="col-md-5  btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+</div> -->

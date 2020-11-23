@@ -1,0 +1,144 @@
+.signup-form {
+  background-color: #8080801a;
+  margin: 97px 0px 115px 0px;
+  border-radius: 10px;
+  border: 1px solid #0000001f;
+}
+
+.signup-form-heading {
+  align-content: center;
+  color: #000000a6;
+}
+
+.form-heading {
+  margin: 14px;
+  font-size: 35px;
+  text-align: center;
+  color: #000000a6;
+}
+
+.form-paragraph {
+  margin: 10px 67px 10px 34px;
+  font-size: 15px;
+  text-align: center;
+  color: #000000a6;
+}
+
+.horizontal-line {
+  width: 23px;
+  margin: 27px 0px 0px 0px;
+  color: black;
+}
+
+.progressbar {
+  text-align: center;
+  color: #000000a6;
+}
+
+.input-field {
+  height: 48px;
+  font-size: 15px;
+  padding: 15px;
+  margin: 3px 0px 0px 0px;
+  border-radius: 4px;
+}
+
+.top-search-bar {
+  border: 1px solid #80808024;
+  background-color: beige;
+
+}
+
+.advanced-search-container {
+  display: flex;
+  margin: 29px 0px 17px 55px;
+}
+
+.city-select {
+  margin: 0px 17px 0px 0px;
+  height: 46px !important;
+  font-size: 15px;
+}
+
+.search-button {
+  height: 46px;
+  font-size: 15px;
+}
+
+.search-link {
+  font-size: 15px !important;
+}
+
+.signup-active {
+  height: 39px;
+  width: 115px;
+  font-size: 15px;
+  margin: 22px 0px 24px 14px;
+}
+
+.horizontal-l {
+  color: black;
+}
+
+.form-fotter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-foter-heading {
+  font-size: 15px;
+}
+
+.login-link {
+  font-size: 15px;
+  margin: -10px 0px 0px 0px;
+}
+
+.authentication-panel {
+  margin: 13px 0px 10px 32px;
+}
+
+.homepage-link {
+  font-size: 14px;
+}
+
+.authentication {
+  color: #000000a6;
+
+}
+
+.dc-joinsteps {
+  float: left;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+}
+
+.active {
+  background-color: blue;
+}
+
+.dc-content ul li {
+  list-style-type: none;
+  font: 400 14px/30px'Open Sans', sans-serif;
+}
+
+.dc-active {
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  margin: 9px;
+  padding: 8px 9px 8px 9px;
+  border: 3px solid #007bff9e;
+}
+
+.dc-active li+li:after {
+  width: 30px;
+  content: '';
+  top: 50%;
+  left: -32px;
+  height: 2px;
+  margin-top: -1px;
+  background: #ddd;
+  position: absolute;
+}

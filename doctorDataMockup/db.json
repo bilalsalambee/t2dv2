@@ -1,0 +1,211 @@
+{
+  "DrpersonalDetail": [
+    {
+      "id": 1,
+      "name": "Dr Arif",
+      "doctorStarRatting": 1,
+      "speciality": "Genius in Heart Surgon",
+      "clinicMobileNumber": null,
+      "clinicPhoneNumber": null,
+      "clinicTiming": " TO",
+      "latestDegreeTitle": "DHMS, RHMP, MSc",
+      "clinicCity": "Lahore",
+      "clinicAddress": "Mandian Abbottabad",
+      "feedback": "5",
+      "imageUrl": "http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/33.jpg",
+      "clicnicday": {
+        "mon": "avaibe",
+        "tues": null,
+        "wedn": "available",
+        "thrusday": "avaiable",
+        "friday": null
+      }
+    },
+    {
+      "id": 2,
+      "name": "Dr Waqas",
+      "doctorStarRatting": 2,
+      "speciality": "Genius in Helth care",
+      "clinicMobileNumber": null,
+      "clinicPhoneNumber": null,
+      "feedback": "1",
+      "clinicTiming": " TO",
+      "latestDegreeTitle": "DHMS, RHMP, MSc",
+      "clinicCity": "Sialkot",
+      "clinicAddress": "Mandian Abbottabad",
+      "imageUrl": "http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/20.jpg",
+      "clicnicday": {
+        "mon": "avaibe",
+        "tues": null,
+        "wedn": "available",
+        "thrusday": "avaiable",
+        "friday": null
+      }
+    },
+    {
+      "id": 3,
+      "name": "Dr Aslam",
+      "feedback": "3",
+      "speciality": "Genius in Heart Surgeon",
+      "doctorStarRatting": 3,
+      "clinicMobileNumber": null,
+      "clinicPhoneNumber": null,
+      "clinicTiming": " TO",
+      "latestDegreeTitle": "DHMS, RHMP, MSc",
+      "clinicCity": "Islamabad",
+      "clinicAddress": "Mandian Abbottabad",
+      "imageUrl": "http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/33.jpg",
+      "clicnicday": {
+        "mon": "avaibe",
+        "tues": null,
+        "wedn": "available",
+        "thrusday": "avaiable",
+        "friday": null
+      }
+    },
+    {
+      "id": 4,
+      "name": "Dr Nimra",
+      "speciality": "Genius in Child Specialist",
+      "feedback": "0",
+      "doctorStarRatting": 4,
+      "clinicMobileNumber": null,
+      "clinicPhoneNumber": null,
+      "clinicTiming": " TO",
+      "latestDegreeTitle": "DHMS, RHMP, MSc",
+      "clinicCity": "Karachi",
+      "clinicAddress": "Mandian Abbottabad",
+      "imageUrl": "http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/15.jpg",
+      "clicnicday": {
+        "mon": "avaibe",
+        "tues": null,
+        "wedn": "available",
+        "thrusday": "avaiable",
+        "friday": null
+      }
+    },
+    {
+      "id": 5,
+      "name": "Dr Tahira",
+      "feedback": "4",
+      "speciality": "Genius in Helthcare",
+      "doctorStarRatting": 2,
+      "clinicMobileNumber": null,
+      "clinicPhoneNumber": null,
+      "clinicTiming": " TO",
+      "latestDegreeTitle": "DHMS, RHMP, MSc",
+      "clinicCity": "Lahore",
+      "clinicAddress": "Mandian Abbottabad",
+      "imageUrl": "http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/05.jpg",
+      "clicnicday": {
+        "mon": "avaibe",
+        "tues": null,
+        "wedn": "available",
+        "thrusday": "avaiable",
+        "friday": null
+      }
+    }
+  ],
+  "AuthenticUSer": [
+    {
+      "id": 1,
+      "name": "Dr Naveed",
+      "pass": "123",
+      "type": "0"
+    },
+    {
+      "id": 2,
+      "name": "Patient Ali",
+      "pass": "123",
+      "type": "1"
+    },
+    {
+      "id": 3,
+      "name": "Patient Ali",
+      "pass": "123",
+      "type": "1"
+    }
+  ],
+  "RegisterdUSer": [
+    {
+      "userName": "df",
+      "Fname": "ads",
+      "lastName": "adsf",
+      "Pass": "asdf",
+      "Email": "asdf",
+      "id": 1
+    },
+    {
+      "userName": "Naveed",
+      "Fname": "Ahmed",
+      "lastName": "a",
+      "Pass": "a",
+      "Email": "needonaveed777@gmail.com",
+      "id": 2
+    },
+    {
+      "userName": "Naveed",
+      "Fname": "Ahmed",
+      "lastName": "",
+      "Pass": "",
+      "Email": "needonaveed777@gmail.com",
+      "id": 3
+    },
+    {
+      "userName": "Naveed",
+      "Fname": "Ahmed",
+      "lastName": "",
+      "Pass": "",
+      "Email": "ssssssssssssss",
+      "id": 4
+    },
+    {
+      "userName": "",
+      "Fname": "",
+      "lastName": "",
+      "Pass": "",
+      "Email": "",
+      "id": 5
+    },
+    {
+      "userName": "hamza",
+      "Fname": "khan",
+      "lastName": "hamza",
+      "Pass": "123",
+      "Email": "hamza@khan.com",
+      "id": 6
+    },
+    {
+      "userName": "aaaa",
+      "Fname": "aaaa",
+      "lastName": "aaaa",
+      "Pass": "aaaa",
+      "Email": "aaaa",
+      "id": 7
+    },
+    {
+      "userName": "aa",
+      "Fname": "aa",
+      "lastName": "aa",
+      "Pass": "aa",
+      "Email": "aa",
+      "id": 8
+    },
+    {
+      "userName": "bilal",
+      "Fname": "salam",
+      "lastName": "bilal salam",
+      "Pass": "123",
+      "Email": "bilal@gmail.com",
+      "id": 9
+    },
+    {
+      "userName": "asdasd",
+      "Fname": "asdasdasd",
+      "lastName": "assdadasd",
+      "Pass": "assdasdasd",
+      "Email": "asdadasd",
+      "id": 10
+    }
+  ]
+}

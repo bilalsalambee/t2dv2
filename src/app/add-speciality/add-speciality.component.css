@@ -1,0 +1,33 @@
+/* .form-main {
+    border: 1px solid black;
+    margin: 50px 0px 50px 0px;
+    padding: 50px 10px 10px 10px;
+} */
+
+.inpuvalue {
+    width: 184px;
+    height: 40px;
+    font-size: 14px;
+    margin: 10px 10px 10px 59px;
+}
+
+.delt-btn {
+    width: 61px;
+    height: 40px;
+    font-size: 14px;
+    margin: 10px 10px 10px 59px;
+}
+
+.add-more {
+    width: 92px;
+    height: 40px;
+    font-size: 14px;
+    margin: 10px 10px 10px 59px;
+}
+
+.submit-speciality {
+    width: 143px;
+    height: 40px;
+    font-size: 14px;
+    margin: 10px 10px 10px 0px;
+}

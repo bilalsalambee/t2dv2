@@ -1,0 +1,206 @@
+.main-container {
+  margin: 30px 0px;
+}
+
+.order-panel {
+  margin: 30px 0px;
+}
+
+.doctor-card-panel {
+  border: 1px solid #00000021;
+  padding: 20px 0px 0px 0px;
+  border-radius: 6px;
+  margin-top: 10px;
+  transition: all 0.3s;
+}
+
+.doctor-card-panel:hover {
+  /* opacity: 0.8; */
+  box-shadow: 4px 7px 4px 3px rgba(199, 197, 199, 1);
+}
+
+.stars-panel {
+  margin: 0px 0px 0px 0px;
+
+}
+
+.audio-video-btn {
+  background-color: #1abc9c;
+  color: white;
+  border: #1abc9c;
+  height: 31px;
+  font-size: 13px;
+}
+
+.main-cls {
+  margin: 0px 0px 0px 13px;
+}
+
+.checked {
+  color: orange;
+}
+
+.dr-speciality {
+  margin: 18px 10px 1px 3px;
+  font-size: 14px;
+  background-color: #f7f7f7;
+  border-radius: 6px;
+  color: #212529bf;
+}
+
+.dr-speciality:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.dermatology-link {
+  font-size: 20px;
+}
+
+.doctor-name {
+  font-size: 21px;
+}
+
+.speciality {
+  color: #00000082;
+  font-size: 14px;
+}
+
+.feedback {
+  color: #00000082;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.stars {
+  font-size: 14px;
+  margin: 4px 0px 0px 2px;
+}
+
+.speciality-link {
+  margin: -6px 0px 0px -3px;
+  list-style: none;
+
+}
+
+.right-panel {
+  padding: 19px 0px 23px 26px;
+  margin: -21px 0px 0px 0px;
+  font-size: 15px;
+  color: #00000085;
+  border: 1px solid #0000001a;
+}
+
+.icon {
+  font-size: 13px;
+}
+
+.full-view-profile {
+  font-size: 12px;
+}
+
+.vl {
+  border-left: 1px solid #0000001a;
+  height: 230px;
+  position: absolute;
+  margin: -21px 0px 0px 565px;
+}
+
+.search-by {
+  float: right;
+  height: -11%;
+  font-size: 14px;
+  height: 39px;
+}
+
+.image-box {
+  margin: 20px 0px 20px 0px;
+  border: 1px solid #0000002e;
+}
+
+.side-card {
+  border: 1px solid #00000021;
+  margin: 10px 0px 0px 0px;
+}
+.doctor-card-main{
+  margin: 10px 0px 0px 0px;
+}
+.card-data {
+  margin: 15px 0px;
+}
+
+.input-field {
+  height: 42px;
+  padding: 18px;
+  font-size: 13px;
+}
+.middle-content-div{
+  /* background-color: #6c757d14; */
+}
+.heading{
+  /* float: right; */
+  margin: 35px 0px 0px 0px;
+}
+.headingg{
+  font-size: 30px;
+  color: red;
+}
+.image-panel{
+  padding: 9px;
+  border: 1px solid #0000001f;
+  margin: 0px 0px 0px 15px;
+}
+.glyphicon {
+  position: relative;
+  top: 6px;
+  display: inline-block;
+  font-family: "Glyphicons Halflings";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.doctor-detail-paragraph{
+  color: #000000a6;
+  font-size: 14px;
+}
+.doctorcard-show-btn {
+  justify-content: center;
+  height: 37px;
+  margin: 29px 0px;
+  font-size: 14px;
+}
+.gliph-heart-icon{
+  margin: 29px 0px 0px 12px;
+  padding: 7px 27px 2px 10px;
+  /* font-size: 16px; */
+  border-radius: 3px;
+  border: 1px solid #00000038;
+}
+.heart-icon{
+  content: "\f058";
+  font-size: 18px;
+  /* margin: 0px 0px; */
+  color: #00000045;
+
+}
+.text-align{
+  margin: -5px 0px 0px -10px;
+}
+.experience-panel{
+  margin: 25px 0px 0px 0px;
+  background-color: #00000005;
+  border: 1px solid #00000012;
+  padding: 16px;
+}
+.experience-detail{
+  padding: 15px;
+  border: 1px solid #0000000d;
+  margin-bottom: 5px;
+  font-size: 15px;
+  background-color: white;
+  color: #0000008c;
+}
+

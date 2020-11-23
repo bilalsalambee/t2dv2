@@ -1,0 +1,239 @@
+<div class="container-fluid main-container">
+  <div class=" row  main-contents">
+    <div class="col-md-6">
+
+      <div class="search-panels">
+
+        <h1 class="search-headings">Emergency?</h1>
+        <h1 class="search-subheadings"><b>Find Nearest</b></h1>
+        <h1 class="sub-headings">Medical Facility</h1>
+        <hr>
+        <div class="form-group">
+          <input type="text" class="form-control search-inputs col-md-11" aria-describedby="emailHelp" #searchvalue
+            placeholder="Search Doctor, Clinic etc">
+
+          <div class="form-group ">
+            <select aria-placeholder="Select a Location" class="form-control search-inputs  col-md-11"
+              id="exampleFormControlSelect1">
+              <option>Abbottabad</option>
+              <option>Mansehra</option>
+              <option>islamabad</option>
+              <option>karachi</option>
+              <option>balakot</option>
+            </select>
+          </div>
+          <div>
+            <button (click)="searchDoc(searchvalue.value)" type="button"
+              class="btn btn-outline-primary search-buttons">search now</button>
+
+            <button type="button" routerLink="search-doctor" class="btn btn-link d-flex advance-searchs"><a> <span
+                  class="dc-advanceicon">
+                  <i class="dc-advanceicon"></i>
+                  <i class="advanceicon2"></i>
+                  <i class="dc-advanceicon3"></i>
+                </span>
+              </a>&nbsp; advanced search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img class="search-panel-imgs" loading="lazy" width="" height=""
+        src="http://amentotech.com/projects/doctreat/wp-content/uploads/2019/12/img-05.png" alt="Search Form">
+    </div>
+  </div>
+  <div class="container-fluid">
+
+    <div id="myCarousel" class="slider-panel carousel slide" data-ride="carousel">
+
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="col-md-12 sub-content">
+    <div class="col-md-7 ">
+      <div class="col-md-12 content-data">
+        <div class="col-md-10  justify justify-content-right">
+          <h1 class="content-heading"><b>Bring Care to Your</b> </h1>
+          <h2 class="sub-heading">Home With One Click</h2>
+          <p class="content-para">Lorem ipsum dolor amet consectetur adipisicing elitiuim sete eiusmod tempor incididunt
+            ut
+            labore etnalom dolore
+            magn aiqua udiminimate veniam quis norud exercitation ullamco laboris nisi aliquip commodo consequat duis
+            aute
+            irure dolor in reprehenderit.</p>
+          <div class="content-buttons">
+            <button type="button" class="btn btn-outline-primary contact-btn">About us</button>
+            <button class="btn btn-primary contact-btn">Contact</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <img src="/assets/3314.jpg" alt="abc" style="width:100%;">
+
+    </div>
+
+  </div>
+  <!-- start how it works -->
+  <div class="col-md-12 feed-back-content">
+    <div class="text-center">
+      <h3>We Made It Simple</h3>
+      <h1 class="panel-heading"><b> How It <span style="color: red;">WOrks ? </span> </b></h1>
+      <div class="col-md-12 d-flex justify-content-center">
+        <p class="col-md-6 feedback-paragraph">Lorem ipsum dolor amet consectetur adipisicing eliteiuim sete eiusmod
+          tempor
+          incididunt ut labore etnalom
+          dolore magna aliqua udiminimate veniam quis norud.</p>
+      </div>
+    </div>
+
+    <div class="col-md-12 text-center  d-flex justify-content-center feedback-content">
+      <div class="col-md-3 cards-justifying">
+        <div class="col-md-10 image-radius">
+          <img loading="lazy" width="" height=""
+            src="http://amentotech.com/projects/doctreat/wp-content/uploads/2019/08/img-01-3.png"
+            alt="Search Best Online">
+        </div>
+
+        <p class="search-online">Search Best Online</p>
+        <h2 class="search-professional"><b>Professional</b></h2>
+      </div>
+      <div class="col-md-3 cards-justifying">
+        <div class="col-md-10 image-radius">
+          <img loading="lazy" width="" height=""
+            src="http://amentotech.com/projects/doctreat/wp-content/uploads/2019/08/img-02-4.png" alt="Get Instant">
+        </div>
+        <p class="search-online">Get Instant</p>
+        <div>
+          <h2 class="search-professional"><b>Appointment</b></h2>
+          <h5>Online Appointment</h5>
+          <h5>Walk-in Appointment</h5>
+        </div>
+      </div>
+      <div class="col-md-3 cards-justifying">
+        <div class="col-md-10 image-radius">
+          <img loading="lazy" width="" height=""
+            src="http://amentotech.com/projects/doctreat/wp-content/uploads/2019/08/img-03-3.png" alt="Leave Your">
+        </div>
+        <p class="search-online">Leave Your</p>
+        <h2 class="search-professional"><b> Feedback</b></h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-12 text-center doctors-detail">
+    <h4>Meet Our Professionals</h4>
+    <h1>Top Rated <span style="color: red;">Specialists</span> </h1>
+    <div class="col-md-12  d-flex justify-content-center">
+      <p class="col-md-6 paragraph-doctor-moto ">Lorem ipsum dolor amet consectetur adipisicing eliteiuim sete eiusmod
+        tempor
+        incididunt ut labore etnalom dolore magna aliqua udiminimate veniam quis norud.</p>
+    </div>
+
+  </div>
+  <!-- doctors cards -->
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-2 card-group" *ngFor="let dr of DrpersonalDetail;let i = index">
+      <div>
+        <img loading="lazy" width="" height="" class="image-size " src="{{DrpersonalDetail[i].imageUrl}}"
+          alt="Flores Emily">
+      </div>
+      <div class="card-content">
+        <a href="">Anesthesiology</a>z
+        <h2>{{DrpersonalDetail[i].name}}</h2>
+        <p *ngIf="DrpersonalDetail[i].latestDegreeTitle==null">Mbbs, FPSC,Mbbs DHM, NNSPS</p>
+        <p>{{DrpersonalDetail[i].latestDegreeTitle}}</p>
+        <div class="stars">
+          <span class="glyphicon glyphicon-star"
+            [ngClass]="{'checked': DrpersonalDetail[i].doctorStarRatting > 0 }"></span>
+          <span class="glyphicon glyphicon-star"
+            [ngClass]="{'checked': DrpersonalDetail[i].doctorStarRatting > 1 }"></span>
+          <span class="glyphicon glyphicon-star"
+            [ngClass]="{'checked': DrpersonalDetail[i].doctorStarRatting > 2 }"></span>
+          <span class="glyphicon glyphicon-star"
+            [ngClass]="{'checked': DrpersonalDetail[i].doctorStarRatting > 3 }"></span>
+          <span class="glyphicon glyphicon-star"
+            [ngClass]="{'checked': DrpersonalDetail[i].doctorStarRatting > 4 }"></span>
+        </div>
+        <p *ngIf="DrpersonalDetail[i].clinicAddress==null"> Abbottabad Mandian opposite </p>
+        <p>
+          {{DrpersonalDetail[i].clinicCity}}
+        </p>
+        <p class="calender-doctor-available"><i class="fas fa-calendar-week"></i>&nbsp; Available Today</p>
+      </div>
+    </div>
+    <!-- Doctor End here -->
+  </div>
+
+  <div class=" col-md-12 d-flex justify-content-center">
+    <button type="button" routerLink="/search-doctor" class="col-md-2  doctorcard-show-btn btn btn-outline-primary">Show
+      All</button>
+
+  </div>
+  <div class="app-icon-content row">
+    <div class="p-5 col-md-6">
+      <img loading="lazy" class="col-md-12" width="" height=""
+        src="http://amentotech.com/projects/doctreat/wp-content/uploads/2019/08/img-01-4.png" alt="APP">
+    </div>
+    <div class="col-md-6">
+      <h1 class="appcontent-heading"><b> Care On The GO</b></h1>
+      <h1 class="appcontent-subheading">Download Mobile App</h1>
+      <p class="app-paragraph">Lorem ipsum dolor amet consectetur adipisicing eliteiuim sete eiusmod tempor incididunt
+        ut labore etnalom dolore magna aliqua.</p>
+      <div class="col-md-12 playstore-icons">
+        <img loading="lazy" width="" class="col-md-4 app-icon" height=""
+          src="http://amentotech.com/projects/doctreat/wp-content/uploads/2019/08/img-03.png" alt="Logo">
+        <img loading="lazy" width="" class=" col-md-4 app-icon" height=""
+          src="http://amentotech.com/projects/doctreat/wp-content/uploads/2019/08/img-02.png" alt="Logo">
+      </div>
+    </div>
+  </div>
+
+  <div class="about-articles">
+    <h4 class="articcle-heading">Read Professional Articles</h4>
+    <h1 class="article-sub-heading"><b> Latest <span style="color: red;">Articles</span> </b></h1>
+    <div class="col-md-12 d-flex justify-content-center">
+      <p class="col-md-6 article-paragraph">Lorem ipsum dolor amet consectetur adipisicing eliteiuim sete eiusmod tempor
+        incididunt
+        ut labore etnalom dolore magna aliqua udiminimate veniam quis norud.</p>
+    </div>
+  </div>
+
+  <div class="col-md-12 article-cards  d-flex justify-content-center">
+
+    <div class="col-md-3">
+      <div>
+        <img class="col-md-12 cards-images" loading="lazy" width="" height=""
+          src="http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/012-545x389.jpg"
+          alt="Alcohol may be less harmful for people over 50">
+      </div>
+      <div class="col-md-12"></div>
+    </div>
+
+    <div class="col-md-3">
+      <div>
+        <img class="col-md-12 cards-images" loading="lazy" width="" height=""
+          src="http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/Untitled-1_0007_Layer-1-545x389.jpg"
+          alt="Study reveals fiber we should eat to prevent disease">
+      </div>
+      <div class="col-md-12"></div>
+    </div>
+
+    <div class="col-md-3">
+      <div>
+        <img class="col-md-12 cards-images" loading="lazy" width="" height=""
+          src="http://amentotech.com/projects/doctreat/wp-content/uploads/2019/09/Untitled-1_0006_Layer-2-545x389.jpg"
+          alt="These common drugs may increase dementia risk">
+      </div>
+      <div class="col-md-12"></div>
+    </div>
+
+  </div>
+
+  <!-- login form little -->
+
+
+  <router-outlet></router-outlet>
+</div>

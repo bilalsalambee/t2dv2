@@ -1,0 +1,174 @@
+<div class="row d-flex justify-content-center main-container">
+
+
+  <div class="col-md-9">
+    <div class="col-md-12 order-panel">
+      <h3 class="col-md-3"><span><b> 60</b></span> Matches Found</h3>
+      <div class="col-md-6">
+        <select class="col-md-6 search-by" name="Sort By" id="">
+          <option value="">ID</option>
+          <option value="">Name</option>
+          <option value="">Date</option>
+        </select></div>
+      <select class="col-md-3 search-by" name="Decending" id="">
+        <option value="">Decending</option>
+        <option value="">Assending</option>
+      </select>
+    </div>
+
+<!-- started data from live apis -->
+    <div class="row doctor-card-panel">
+
+      <div class="col-md-8">
+        <div>
+
+          <img width="" height="" class="col-md-4"
+          src="http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/06-255x250.jpg" alt="Velit Şenli">
+        </div>
+
+        <div class="col-md-7">
+
+          <a class="dermatology-link" > </a>
+
+
+          <h2  class="doctor-name">{{getfirstname}} <i class="icon far fa-check-circle"></i></h2>
+          <p class="speciality">doctor speciality</p>
+          <div class="stars-panel row d-flex">
+            <div class="">
+              <span class="glyphicon glyphicon-star"
+               ></span>
+              <span class="glyphicon glyphicon-star"
+               ></span>
+              <span class="glyphicon glyphicon-star"
+               ></span>
+              <span class="glyphicon glyphicon-star"
+               ></span>
+              <span class="glyphicon glyphicon-star"
+               ></span>
+            </div>
+            <div class="">
+              <p class="feedback">Feedback</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 row">
+          <ul class=" speciality-link">
+            <button class="btn btn-light dr-speciality">DHMS</button>
+            <button class="btn btn-light dr-speciality">RHMPS</button>
+            <button class="btn btn-light dr-speciality">RHMPS</button>
+            <button class="btn btn-light dr-speciality">MSc</button>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="right-panel col-md-4">
+        <p><i class="fas fa-traffic-light"></i>&nbsp;dotor clinic city</p>
+        <p><i class="far fa-clock"></i>&nbsp;Mon, Tue, Wed, Thu, Fri, Sat, Sun</p>
+        <p><i class="far fa-thumbs-up"></i>&nbsp;0 Votes</p>
+          <!--need for like / Vote  -->
+        <p><i class="fas fa-door-closed"></i>&nbsp;Starting From $113.00</p>
+          <!--need fee  -->
+        <p><i class="fas fa-clipboard-list"></i>&nbsp;Available Today</p>
+                <!--need curreny date Avaiablity -->
+
+        <button class="col-md-7 full-view-profile btn btn-primary">&nbsp;View Full Profile</button>
+
+
+    <!--
+    <div *ngFor="let detail of DrpersonalDetail; let i = index" class="row doctor-card-panel">
+
+      <div class="col-md-8">
+        <div>
+
+          <img width="" height="" class="col-md-4"
+          src={{DrpersonalDetail[i].imageUrl}} alt="Velit Şenli">
+        </div>
+
+        <div class="col-md-7">
+
+          <a class="dermatology-link" > </a>
+
+
+          <h2 class="doctor-name">{{DrpersonalDetail[i].name}} <i class="icon far fa-check-circle"></i></h2>
+          <p class="speciality">{{DrpersonalDetail[i].speciality}}</p>
+          <div class="stars-panel row d-flex">
+            <div class="">
+              <span class="glyphicon glyphicon-star"
+                [ngClass]="{'checked': DrpersonalDetail[i].doctorStarRatting > 0 }"></span>
+              <span class="glyphicon glyphicon-star"
+                [ngClass]="{'checked': DrpersonalDetail[i].doctorStarRatting > 1 }"></span>
+              <span class="glyphicon glyphicon-star"
+                [ngClass]="{'checked': DrpersonalDetail[i].doctorStarRatting > 2 }"></span>
+              <span class="glyphicon glyphicon-star"
+                [ngClass]="{'checked': DrpersonalDetail[i].doctorStarRatting > 3 }"></span>
+              <span class="glyphicon glyphicon-star"
+                [ngClass]="{'checked': DrpersonalDetail[i].doctorStarRatting > 4 }"></span>
+            </div>
+            <div class="">
+              <p class="feedback">{{DrpersonalDetail[i].feedback}} Feedback</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12 row">
+          <ul class=" speciality-link">
+            <button class="btn btn-light dr-speciality">DHMS</button>
+            <button class="btn btn-light dr-speciality">RHMPS</button>
+            <button class="btn btn-light dr-speciality">RHMPS</button>
+            <button class="btn btn-light dr-speciality">MSc</button>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="right-panel col-md-4">
+        <p><i class="fas fa-traffic-light"></i>&nbsp;{{DrpersonalDetail[i].clinicCity}}</p>
+        <p><i class="far fa-clock"></i>&nbsp;Mon, Tue, Wed, Thu, Fri, Sat, Sun</p>
+        <p><i class="far fa-thumbs-up"></i>&nbsp;0 Votes</p>
+          need for like / Vote  -->
+        <!-- <p><i class="fas fa-door-closed"></i>&nbsp;Starting From $113.00</p> -->
+          <!--need fee  -->
+        <!-- <p><i class="fas fa-clipboard-list"></i>&nbsp;Available Today</p> -->
+                <!--need curreny date Avaiablity -->
+
+        <!-- <button (click)="viewProfile()" class="col-md-7 full-view-profile btn btn-primary">&nbsp;View Full Profile</button> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="col-md-12 side-card">
+      <img width="" height="" class="col-md-12"
+        src="http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/sidebar01.jpg" alt="Query online">
+      <div class="col-md-12 d-flex justify-content-center">
+        <div class="card-data">
+          <h3 class="justify-content-center"> Stop Waiting In Queue</h3>
+          <h2><b>Ask Query Online</b> </h2>
+          <button class="col-md-12 btn btn-primary audio-video-btn">Book Audio/Video Call</button>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="col-md-12 side-card">
+      <img width="" height="" class="col-md-12"
+        src="http://amentotech.com/projects/doctreat/wp-content/uploads/2019/11/sidebar02.jpg" alt="Query online">
+      <div class="col-md-12 d-flex justify-content-center">
+        <div class="card-data">
+          <h3 class="justify-content-center"> Care On The GO</h3>
+          <h2><b>Get Mobile App</b> </h2>
+        </div>
+      </div>
+      <div class="col-md-12  form-group">
+        <input type="email" class="col-md-12" class="input-field form-control" id="exampleInputEmail1"
+          aria-describedby="emailHelp" placeholder="Email ID">
+      </div>
+    </div>
+    <div>
+      <img class="col-md-12 image-box"
+        src="http://amentotech.com/projects/doctreat/wp-content/uploads/2019/08/img-02-4.jpg" alt="">
+    </div>
+  </div>
+</div>

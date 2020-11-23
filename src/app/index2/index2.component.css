@@ -1,0 +1,127 @@
+.main-content{
+  width: 100%;
+  height: 100%;
+  background-image: url("http://amentotech.com/projects/doctreat/wp-content/uploads/2019/12/img-02.jpg");
+}
+.search-panel{
+  background-color: white;
+  margin: 85px 10px 6px 150px;
+    padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+}
+.search-heading{
+margin: 10px 10px 10px 10px;
+color: #ff0000a6;
+}
+.search-subheading{
+  margin: 10px 10px 10px 10px;
+  font-size: 42px;
+  color: #0000008c;
+}
+.sub-heading{
+  margin: 10px 10px 10px 10px;
+  color: #0000008c;
+}
+.search-input{
+  margin: 10px 10px 10px 10px;
+  height: 45px;
+  font-size: 13px;
+  padding-left: 20px;
+}
+
+
+.search-table{
+  padding-left: 20px;
+  margin: 10px 10px 10px 10px;
+  height: 45px !important;
+  font-size: 13px;
+
+}
+.search-button{
+  margin: 10px 10px 10px 10px;
+  height: 39px;
+  width: 107px;
+  font-size: 12px;
+}
+.advance-search{
+  margin: 15px 21px 10px 10px;
+  float: right;
+  font-size: 13px;
+  color: #80808094;
+
+}
+.search-panel-img{
+  margin: 33px 0px 0px 0px;
+
+}
+.cards{
+  display: flex;
+  margin: 31px 0px 31px 0px;
+}
+.card{
+  margin: 4px;
+  border-color: 1px solid;
+}
+.query-panel{
+  padding: 0px 20px 20px 137px;
+
+}
+
+.query-heading{
+  margin: 10px 10px 7px 0px;
+  font-size: 38px;}
+ .query-sub-heading{
+  margin: 10px 10px 24px 0px;
+  font-size: 38px;
+  color: red;
+ }
+ .query-paragraph{
+   font-size: 15px;
+   margin: 10px 10px 24px 0px;
+
+ }
+ .query-title{
+  margin: 10px 10px 24px 0px;
+  padding: 21px;
+  font-size: 14px;
+ }
+ .query-detail{
+  margin: 10px 10px 24px 0px;
+padding: 21px;
+font-size: 14px;
+
+ }
+ .feedback-heading{
+   font-size: 15px;
+ }
+ .professional-feedback{
+   font-size: 28px;
+ }
+ .dermatology{
+   display: flex;
+   margin: 19px 10px 10px -17px;
+ }
+ .nuclear-medicine{
+  display: flex;
+  margin: 25px 10px 10px -17px;
+
+}
+.risk-spreading{
+  display: flex;
+  margin: 25px 10px 10px -17px;
+
+}
+.icon-img{
+  margin: 5px 15px 10px 0px;
+  border-radius: 5px;
+  border: 1px solid #00800070;
+}
+.dermatology-link{
+  margin: -6px 10px 10px -6px;
+  font-size: 14px;
+
+}
+.paragraphr-content{
+  font-size: 16px;
+    margin: -9px 0px 0px 0px;
+}

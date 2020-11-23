@@ -1,0 +1,88 @@
+.top-heading-content {
+  justify-content: center;
+  text-align: center;
+  padding: 50px 250px;
+}
+
+.top-heading {
+  font-size: 36px;
+  margin: 17px;
+}
+
+.top-paragraph {
+  font-size: 17px;
+  color: #000000ab;
+}
+
+.cards-panel {
+  display: flex;
+  padding: 35px 171px;
+  padding: 16px 171px 70px 171px;
+}
+
+.cards {
+  border: 1px solid #0000001f;
+  margin: 0px 7px;
+  padding: 30px;
+  text-align: center;
+}
+
+.cards:hover {
+  opacity: 0.4;
+}
+
+.work-appoinment-panel {
+  padding: 50px;
+}
+
+.content-detail {
+  font-size: 14px;
+}
+
+.team-panel {
+  display: flex;
+  padding: 10px 179px;
+
+}
+
+.team-card {
+  border: 1px solid #00000038;
+  margin: 0px 0px 10px 13px;
+}
+
+.team-card:hover {
+  box-shadow: 3px 3px #3796d4a6, -1em 0 .4em #3796d42e;
+  opacity: 0.5
+}
+
+li {
+  list-style: none;
+  margin: 9px;
+  font-size: 16px;
+}
+
+ul {
+  display: flex;
+  float: right;
+}
+
+.social-icons {
+  text-align: center;
+  margin: 19px 0px 0px 0px;
+}
+
+.first-panel {
+  display: flex;
+}
+
+.second-panel {
+  display: flex;
+}
+
+.main-icon-panel {
+  margin: 90px;
+}
+
+.icon-img:hover {
+  filter: drop-shadow(2px 9px 8px rgb(192, 192, 192));
+}

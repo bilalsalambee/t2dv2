@@ -1,0 +1,109 @@
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.category-heading {
+  background-color: #4fb0ff;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 0px !important;
+  padding: 4px 0px 8px 37px;
+}
+
+.category-list {
+  background: #f7f7f7;
+  color: black;
+  padding: 10px 32px;
+  font-size: 17px;
+}
+
+.search-help {
+  padding: 10px 10px 10px 10px;
+  font-size: 13px;
+  height: 46px;
+
+}
+
+.input-group {
+  height: 46px;
+}
+
+.form-inpt-group {
+  background: #f7f7f7;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 22px;
+}
+
+.image-box {
+  margin: 20px 0px 20px 0px;
+  border: 1px solid #0000002e;
+}
+
+.date-link {
+  margin-top: 5px;
+  color: #4fa4ff;
+}
+
+.radiology-link {
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+.pargraph {
+  font-size: 16px;
+  color: #00000085;
+}
+
+.italic-paragraph {
+  font: italic 400 18px/28px'Open Sans', sans-serif;
+}
+
+.qoute-panel {
+  display: flex;
+  padding: 25px 100px;
+}
+
+.round-icon {
+  font-size: 54px;
+  margin-right: 14px;
+  color: #3fabf3;
+}
+
+.italic-parag {
+  font: italic 400 13px/22px'Open Sans', sans-serif;
+  padding: 6px 0px 0px 150px;
+}
+
+.pargraph-align {
+  font-size: 16px;
+  color: #00000085;
+  margin: 24px 0px;
+}
+
+.italic-paragraph {
+  font: italic 400 18px/28px'Open Sans', sans-serif;
+}
+
+.italic-parag-min {
+  font: italic 400 13px/22px'Open Sans', sans-serif;
+  padding: 6px 0px 0px 21px;
+}

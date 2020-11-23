@@ -1,0 +1,134 @@
+.main-container {
+  margin: 30px 20px;
+}
+
+.order-panel {
+  margin: 30px 0px;
+}
+
+.doctor-card-panel {
+  border: 1px solid #00000021;
+  padding: 20px 0px 0px 0px;
+  border-radius: 6px;
+  margin-top: 10px;
+  transition: all 0.3s;
+}
+
+.doctor-card-panel:hover {
+  /* opacity: 0.8; */
+  box-shadow: 4px 7px 4px 3px rgba(199, 197, 199, 1);
+}
+
+.stars-panel {
+  margin: -9px 0px 0px -1px;
+
+}
+
+.audio-video-btn {
+  background-color: #1abc9c;
+  color: white;
+  border: #1abc9c;
+  height: 31px;
+  font-size: 13px;
+}
+
+.main-cls {
+  margin: 0px 0px 0px 13px;
+}
+
+.checked {
+  color: orange;
+}
+
+.dr-speciality {
+  margin: 18px 10px 1px 3px;
+  font-size: 14px;
+  background-color: #f7f7f7;
+  border-radius: 6px;
+  color: #212529bf;
+}
+
+.dr-speciality:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.dermatology-link {
+  font-size: 20px;
+}
+
+.doctor-name {
+  font-size: 21px;
+}
+
+.speciality {
+  color: #00000082;
+  font-size: 14px;
+}
+
+.feedback {
+  color: #00000082;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.stars {
+  font-size: 14px;
+  margin: 4px 0px 0px 2px;
+}
+
+.speciality-link {
+  margin: -6px 0px 0px -3px;
+  list-style: none;
+
+}
+
+.right-panel {
+  padding: 19px 0px 23px 26px;
+  margin: -21px 0px 0px 0px;
+  font-size: 15px;
+  color: #00000085;
+  border: 1px solid #0000001a;
+}
+
+.icon {
+  font-size: 13px;
+}
+
+.full-view-profile {
+  font-size: 12px;
+}
+
+.vl {
+  border-left: 1px solid #0000001a;
+  height: 230px;
+  position: absolute;
+  margin: -21px 0px 0px 565px;
+}
+
+.search-by {
+  float: right;
+  height: -11%;
+  font-size: 14px;
+  height: 39px;
+}
+
+.image-box {
+  margin: 20px 0px 20px 0px;
+  border: 1px solid #0000002e;
+}
+
+.side-card {
+  border: 1px solid #00000021;
+  margin: 10px 0px 0px 0px;
+}
+
+.card-data {
+  margin: 15px 0px;
+}
+
+.input-field {
+  height: 42px;
+  padding: 18px;
+  font-size: 13px;
+}

@@ -1,0 +1,504 @@
+.main-container {
+  background-color: white;
+}
+
+.header {
+  display: flex;
+}
+
+.company-name {
+  font-size: 35px;
+}
+
+.routing-components {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.signin-join {
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.join-now-btn {
+  width: 113px;
+  height: 37px;
+  font-size: 16px;
+}
+
+.login-signup-link {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 16px;
+}
+
+.login-signup-link:hover {
+  color: #ff8200;
+
+}
+
+.header-logo {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 15px;
+}
+
+.join-btn {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  width: 115px;
+  height: 33px;
+  font-size: 11px;
+}
+
+.menu {
+  padding: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  letter-spacing: 2px;
+}
+
+.search-panel {
+  display: flex;
+  margin: -87px 10px 10px 98px;
+  background-color: white;
+  border: 2px solid #8080805e;
+  padding: 0px;
+}
+
+.doctor-photo {
+  margin: 42px 0px 0px 0px;
+  color: white;
+}
+
+.form-align {
+  display: flex;
+  margin: 0px 0px 35px -10px;
+}
+
+.form-grp {
+  border-bottom: 1px solid #0000002b;
+}
+
+.search-heading {
+  margin: 10px;
+}
+
+
+
+.content-data {
+  padding: 121px 0px 20px 0px;
+}
+
+.content-heading {
+  font-size: 40px;
+}
+
+.justify {
+  float: right;
+}
+
+.sub-heading {
+  font-size: 33px;
+}
+
+.content-para {
+  font-size: 17px;
+}
+
+.content-buttons {
+  margin: 25px 0px 0px 0px;
+}
+
+.contact-btn {
+  margin-left: 10px;
+  width: 116px;
+  height: 43px;
+  font-size: 16px;
+}
+
+.feed-back-content {
+  background-color: #e8f6ff;
+  padding: 70px;
+}
+
+.feedback-content {
+  justify-content: center;
+}
+
+.cards-justifying {
+  margin: 20px 0px 10px 0px;
+}
+
+.card-group {
+  border: 1px solid #00000012;
+  margin: 0px 0px 0px 20px;
+}
+
+.card-group:hover {
+  opacity: 0.5;
+}
+
+.stars {
+  margin-top: -10px;
+}
+
+.calender-doctor-available {
+  color: #0000007a;
+}
+
+.card-content {
+  margin: 10px 0px 0px 14px;
+  font-size: 13px;
+}
+
+.image-size {
+  margin: 0px;
+  width: 110%;
+  margin-left: -15px;
+}
+
+.panel-heading {
+  font-size: 42px;
+}
+
+.feedback-paragraph {
+  font-size: 15px;
+}
+
+.search-online {
+  font-size: 12px;
+}
+
+.search-professional {
+  font-size: 27px;
+}
+
+.doctors-detail {
+  margin: 40px 0px 0px 0px;
+}
+
+.paragraph-doctor-moto {
+  font-size: 20px;
+}
+
+.checked {
+  color: orange;
+}
+
+.content-align {
+  height: 50px !important;
+  font-size: 14px;
+  margin-left: 13px;
+}
+
+.join-team {
+  background-color: #2c3661;
+  height: 197px;
+}
+
+.image-pl {
+  position: relative;
+  top: -17px;
+}
+
+.doctorcard-show-btn {
+  justify-content: center;
+  height: 50px;
+  margin: 29px 0px;
+  font-size: 14px;
+}
+
+.playstore-icons {
+  margin-top: 38px;
+}
+
+.app-icon-content {
+  background-color: #e8f6ff;
+}
+
+.appcontent-heading {
+  margin: 65px 0px 0px 0px;
+  font-size: 39px;
+}
+
+.appcontent-subheading {
+  margin: 5px 0px 13px 0px;
+  font-size: 39px;
+  color: red;
+}
+
+.app-icon {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.app-paragraph {
+  margin: 5px 0px 13px 0px;
+  font-size: 17px;
+  padding: 0px 70px 0px 0px;
+}
+
+.about-articles {
+  justify-content: center;
+  text-align: center;
+}
+
+.articcle-heading {
+  margin: 10px;
+}
+
+.article-sub-heading {
+  margin: 16px;
+  font-size: 50px;
+}
+
+.article-paragraph {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.article-cards {
+  margin: 28px 0px 76px 4px;
+}
+
+.footer-container {
+  background-color: #3d4461;
+  color: #ffffffc9;
+  padding: 70px 100px 49px 100px;
+}
+
+.footer-heading {
+  margin: 1px 8px 19px 0px;
+  font-size: 39px;
+}
+
+.footer-paragraph {
+  margin: 1px 8px 19px 0px;
+  font-size: 15px;
+}
+
+.footer-address {
+  margin: 1px 8px 19px 0px;
+  font-size: 15px;
+
+}
+
+.footer-email {
+  margin: 1px 8px 19px 0px;
+  font-size: 15px;
+
+}
+
+.footer-contact {
+  margin: 1px 8px 19px 0px;
+  font-size: 15px;
+
+}
+
+.image-radius {
+  margin: 15px;
+  padding: 65px 30px 65px 30px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 10px 5px 5px #e4e4e4;
+  box-shadow: inset 0.5em 0.5em #f1e01359;
+  filter: drop-shadow(2px 4px 6px #0000004f);
+}
+
+.dc-advanceicon {
+  border-color: #fff;
+  display: block;
+  margin: -4px 0 0;
+  position: relative;
+  border: 2px solid #fff;
+}
+
+.dc-advanceicon i {
+  width: 22px;
+  display: block;
+  margin: 5px 0 0;
+  position: relative;
+  border: 1px solid #bfb7cb;
+}
+
+.dc-advanceicon :after {
+  top: 0;
+  left: 14px;
+  width: 6px;
+  height: 6px;
+  content: '';
+  background: #fff;
+  position: absolute;
+  border-radius: 50px;
+  margin: -3px 0 0 -5px;
+  border: 1px solid #57a8ff;
+  transition: all 0.4s;
+}
+
+.dc-advanceicon i:first-child:after {
+  top: 0;
+  left: 16px;
+  width: 6px;
+  height: 6px;
+  content: '';
+  background: #fff;
+  position: absolute;
+  border-radius: 50px;
+  margin: -3px 0 0 -5px;
+  border: 1px solid #57a8ff;
+  transition: all 0.4s;
+}
+
+.dc-advanceicon i:last-child:after {
+  top: 0;
+  left: 6px;
+  width: 6px;
+  height: 6px;
+  content: '';
+  background: #fff;
+  position: absolute;
+  border-radius: 50px;
+  margin: -3px 0 0 -5px;
+  border: 1px solid #57a8ff;
+  transition: all 0.4s;
+}
+
+.dc-advanceicon:hover :first-child:after {
+  top: 0;
+  left: 4px;
+  width: 6px;
+  height: 6px;
+  content: '';
+  background: #fff;
+  position: absolute;
+  border-radius: 50px;
+  margin: -3px 0 0 -5px;
+  border: 1px solid #57a8ff;
+  transition: all 0.4s;
+}
+
+
+.dc-advanceicon:hover :last-child:after {
+  top: 0;
+  left: 16px;
+  width: 6px;
+  height: 6px;
+  content: '';
+  background: #fff;
+  position: absolute;
+  border-radius: 50px;
+  margin: -3px 0 0 -5px;
+  border: 1px solid #57a8ff;
+  transition: all 0.4s;
+}
+
+
+.advanceicon2:after {
+  top: 0;
+  left: 20px;
+  width: 6px;
+  height: 6px;
+  content: '';
+  background: #fff;
+  position: absolute;
+  border-radius: 50px;
+  margin: -3px 0 0 -5px;
+  border: 1px solid #57a8ff;
+  transition: all 0.4s;
+}
+
+.main-contents {
+  height: 100%;
+  background-image: url("https://www.stjosephhospital.in/wp-content/uploads/2019/04/st-joseph-hospital-manjummel-edappally-ernakulam.jpg");
+}
+
+.search-panels {
+  background-color: white;
+  margin: 85px 10px 6px 150px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+.search-headings {
+  margin: 10px 10px 10px 10px;
+  color: #ff0000a6;
+}
+
+.search-subheadings {
+  margin: 10px 10px 10px 10px;
+  font-size: 42px;
+  color: #0000008c;
+}
+
+.sub-headings {
+  margin: 10px 10px 10px 10px;
+  color: #0000008c;
+}
+
+.search-inputs {
+  margin: 10px 10px 10px 10px;
+  height: 45px !important;
+  font-size: 13px;
+  padding-left: 20px;
+}
+
+.search-buttons {
+  margin: 10px 10px 10px 10px;
+  height: 39px;
+  width: 107px;
+  font-size: 12px;
+}
+
+.advance-searchs {
+  margin: 15px 21px 10px 10px;
+  float: right;
+  font-size: 13px;
+  color: #80808094;
+
+}
+
+.search-panel-imgs {
+  margin: 33px 0px 0px 0px;
+
+}
+
+.login-form {
+  padding: 20px;
+  border: 2px solid;
+}
+
+.forgot-pasword-panel {
+  background-color: #80808045;
+}
+
+.input-pace {
+  height: 40px;
+  font-size: 14px;
+  padding-left: 19px;
+}
+
+.submit-button {
+  height: 32px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.keep-login {
+  margin: 2px 0px 0px 0px;
+  color: #0000006b;
+}
+
+.checkbox-panel {
+  margin: 13px 0px 0px 0px;
+}

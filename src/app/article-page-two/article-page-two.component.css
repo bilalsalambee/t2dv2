@@ -1,0 +1,56 @@
+.cards-container{
+  display: flex;
+}
+.cards-row{
+  border: 1px solid #00000014;
+  margin: 51px 10px 0px 10px;}
+.cards-row:hover{
+  opacity: 0.8;
+  box-shadow: 5px 5px 15px 5px #b7b7b791;
+}
+.card-pic{
+  width: 358px;
+    margin: 0px 0px 0px -15px;
+
+}
+.card-title{
+  font-size: 15px;
+  text-decoration: none;
+  margin: 5px 0px -1px 0px;}
+.card-heading{
+  font-size: 15px;
+  text-decoration: none;
+  color: #0000009c;  margin: 0px 0px 10px -6px;}
+.date{
+  color: #0000009c;
+  font-size: 13px;
+  margin-left: 9px;
+}
+.social-links{
+margin: 0px 0px 10px -17px;
+}
+/* pagination */
+.pagination {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #3fabf3;
+  color: white;
+  border: 1px solid #3fabf3;
+}
+
+.pagination a:hover:not(.active) {background-color: #3fabf3;}
+.pagination a {
+  margin: 0 4px;
+}

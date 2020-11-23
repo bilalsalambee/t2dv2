@@ -1,0 +1,102 @@
+.signup-form {
+  background-color: #8080801a;
+  margin: 46px 0px 115px 374px;
+}
+
+.signup-form-heading {
+  align-content: center;
+  color: #000000a6;
+}
+
+.form-heading {
+  margin: 14px;
+  font-size: 35px;
+  text-align: center;
+  color: #000000a6;
+}
+
+.form-paragraph {
+  margin: 10px 67px 10px 34px;
+  font-size: 15px;
+  text-align: center;
+  color: #000000a6;
+}
+
+.progressbar {
+  text-align: center;
+  color: #000000a6;
+}
+
+.input-field {
+  height: 46px;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.top-search-bar {
+  border: 1px solid #80808024;
+  background-color: beige;
+
+}
+
+.advanced-search-container {
+  display: flex;
+  margin: 29px 0px 17px 55px;
+}
+
+.city-select {
+  margin: 0px 17px 0px 0px;
+  height: 46px !important;
+  font-size: 15px;
+}
+
+.search-button {
+  height: 46px;
+  font-size: 15px;
+}
+
+.search-link {
+  font-size: 15px !important;
+}
+
+.signup-active {
+  height: 39px;
+  width: 115px;
+  font-size: 15px;
+  margin: 0px 0px 20px 14px;
+}
+
+.horizontal-line {
+  color: black;
+}
+
+.form-fotter {
+  display: flex;
+  justify-content: center;
+}
+
+.form-foter-heading {
+  font-size: 15px;
+}
+
+.login-link {
+  font-size: 15px;
+  margin: -10px 0px 0px 0px;
+}
+
+.authentication-panel {
+  margin: 13px 0px 10px 32px;
+}
+
+.homepage-link {
+  font-size: 14px;
+}
+
+.authentication {
+  color: #000000a6;
+
+}
+
+.login-form {
+  margin: 69px 0px 16px 0px;
+}

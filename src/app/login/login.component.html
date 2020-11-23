@@ -1,0 +1,38 @@
+<div class="container-fluid">
+  <div class="col-md-12 top-search-bar">
+  </div>
+
+  <div class="col-md-5 signup-form">
+
+    <div class="col-md-12 login-form">
+      <form>
+ <!-- <a id="username-dropdown-toggle" ng-click="$ctrl.showDropdown = !$ctrl.showDropdown;">
+                <b
+                  ng-if="$ctrl.identity.identityTypeLookup === $ctrl.IdentityType.Doctor">{{ 'TOP_HEADER.WELCOME_DOCTOR' | translate : { firstname: $ctrl.identity.firstname, lastname: $ctrl.identity.lastname } }}</b>
+                <b
+                  ng-if="$ctrl.identity.identityTypeLookup !== $ctrl.IdentityType.Doctor">{{ 'TOP_HEADER.WELCOME_PATIENT' | translate : { firstname: $ctrl.identity.firstname, lastname: $ctrl.identity.lastname } }}</b>
+                <i class="glyphicon glyphicon-chevron-down"
+                  ng-class="{'glyphicon-chevron-down': !$ctrl.showDropdown, 'glyphicon-chevron-up': $ctrl.showDropdown}"></i>
+              </a> -->
+        <div class="col-md-12 form-group">
+          <h2><b><SPAn style="color: red;">LogIN</SPAn> To Continue </b></h2>
+        </div>
+        <div class="col-md-12 form-group">
+          <input #email type="text" class="form-control input-field" placeholder="Enter Your Email" required>
+        </div>
+        <div class="col-md-12 form-group">
+          <input #password type="text" class="form-control input-field" placeholder="Enter Your Password" required>
+        </div>
+
+        <!-- <button (click)="loginFun(userEmail.value, password.value)" type="button" class="btn btn-outline-primary signup-active">LogIn api data </button>
+        <button (click)="testemail(userEmail.value, password.value)" type="button" class="btn btn-outline-primary signup-active">LogIn</button> -->
+        <button (click)="loginfromapi(email.value, password.value)"  type="button" class="btn btn-outline-primary signup-active">LogIn</button>
+        <hr class="horizontal-line">
+        <div class=" form-fotter">
+          <p>Not Register?</p>
+          <button type="button" (click)="loginuserfromapi()" class="btn btn-link login-link">Sign Up</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
